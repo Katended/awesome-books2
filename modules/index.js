@@ -53,7 +53,7 @@ contact.classList.toggle('show');
 list.style.display = 'block';
 
 links.forEach((link) => {
-  link.addEventListener('click', () => {  
+  link.addEventListener('click', () => {
     if (link.id === 'list-link') {
       list.style.display = 'block';
       form.style.display = 'none';
